@@ -1,14 +1,16 @@
 <template>
   <div class="home">
+    
     <div class="feature-card">
       <router-link to="/movie/tt0126029">
-        <img src="https://images.gmanews.tv/webpics/2021/06/Poster1-Rick_and_Morty_S5-HBO_GO_2021_06_08_15_28_09.jpg" alt="Rick&Morty Poster" class="featured-img">
+        <img src="https://images.alphacoders.com/519/thumb-1920-519107.jpg" alt="Shrek Poster" class="featured-img">
       <div class="detail">
        
-        <h3>Watch Season 6 Now</h3>
-        <p>Brilliant but boozy scientist Rick hijacks his fretful teenage
-        <br>grandson, Morty, for wild escapades in other worlds and
-        <br>alternate dimensions. </p>
+        <h3>Shrek</h3>
+        <p>A brash but lovable ogre stars in this tale
+        <br>Roger Ebert hails as "jolly and wicked, filled
+        <br>with sly in-jokes and yet somehow possessing
+        <br>a heart."</p>
       </div>
       </router-link>
     </div>
@@ -63,6 +65,9 @@ export default {
 </script>
 
 <style lang="scss">
+
+    
+
 .home {
   .feature-card {
     position: relative;
